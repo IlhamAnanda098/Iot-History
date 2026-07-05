@@ -189,8 +189,72 @@ def history_detail(year):
 
         Pengguna dapat mengontrol rumah hanya menggunakan smartphone.
         """
-        }
+        },
 
+        "2022-2024": {
+        "title":"Era Smart Everything",
+        "image":"Era Smart Everything.jpg",
+        "location":"Global",
+        "fact":"Kota-kota besar mulai menggunakan sensor IoT untuk mengatur lalu lintas, kualitas udara, parkir pintar, hingga pengelolaan energi secara otomatis.",
+        "content":"""
+        IoT berkembang hampir di semua bidang kehidupan.
+
+        Implementasinya meliputi:
+
+        1. Smart City
+            a. Lampu lalu lintas otomatis.
+            b. Parkir pintar.
+            c. Pengelolaan banjir.
+            d. Monitoring kualitas udara.
+        2. Smart Agriculture
+            a. Drone pertanian.
+            b. Sensor kelembapan.
+            c. Monitoring tanaman.
+            d. Otomatisasi irigasi.
+        3. Smart Healthcare
+            a. Monitoring pasien dari rumah.
+            b. Wearable kesehatan.
+            c. Telemedicine.
+        4. Smart Energy
+            a. Smart Grid.
+            b. Smart Meter.
+            c. Monitoring konsumsi listrik.
+        5. Smart Transportation
+            a. Kendaraan listrik terhubung.
+            b. Manajemen armada.
+            c. Pemantauan lalu lintas secara real-time.
+        """
+        },
+
+        "2025-2026": {
+        "title":"Era AIoT (Artificial Intelligence of Things)",
+        "image":"Era AIoT (Artificial Intelligence of Things).jpg",
+        "location":"Global",
+        "fact":"Kota-kota besar mulai menggunakan sensor IoT untuk mengatur lalu lintas, kualitas udara, parkir pintar, hingga pengelolaan energi secara otomatis.",
+        "content":"""
+        Saat ini, IoT memasuki era Artificial Intelligence of Things (AIoT), yaitu integrasi antara IoT dan kecerdasan buatan.
+
+        Karakteristik utamanya meliputi:
+
+        1. AI berjalan langsung pada perangkat (on-device AI), sehingga respons lebih cepat.
+        2. Analisis data dilakukan secara real-time di edge (Edge AI), mengurangi ketergantungan pada cloud.
+        3. Predictive Maintenance semakin akurat dengan memanfaatkan pembelajaran mesin.
+        4. Digital Twin digunakan untuk membuat representasi virtual dari mesin atau sistem fisik guna simulasi dan optimasi.
+        5. Robot kolaboratif (cobots) dan kendaraan otonom semakin banyak memanfaatkan data IoT.
+        6. Teknologi 5G dan LPWAN (seperti LoRaWAN dan NB-IoT) mendukung koneksi jutaan perangkat dengan konsumsi daya rendah.
+        7.Keamanan siber menjadi fokus utama melalui enkripsi, autentikasi perangkat, pembaruan firmware jarak jauh (OTA), dan arsitektur Zero Trust.
+
+        Implementasi AIoT kini telah meluas pada:
+
+        1. Industri manufaktur cerdas (Smart Factory).
+        2. Rumah pintar (Smart Home).
+        3. Kota pintar (Smart City).
+        4. Pertanian presisi (Precision Agriculture).
+        5. Rumah sakit digital.
+        6. Sistem logistik dan rantai pasok.
+        7. Monitoring lingkungan dan mitigasi bencana.
+        """
+        }
         }
 
     data = history.get(year)
