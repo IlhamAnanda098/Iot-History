@@ -279,3 +279,35 @@ color:#eee;
     line-height: 1.5;
     font-size: 17px;
 }
+/* Judul setiap bagian */
+.section-title{
+    font-weight:700;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+/* Isi lokasi */
+.history-text{
+    font-size:17px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+/* Fakta Menarik */
+.fact-box{
+    background:rgba(255,255,255,.08);
+    border-left:5px solid #0d6efd;
+    padding:15px 20px;
+    border-radius:12px;
+    font-size:17px;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+/* Isi sejarah */
+.history-content{
+    white-space:pre-line;
+    text-align:justify;
+    line-height:2;
+    font-size:17px;
+}

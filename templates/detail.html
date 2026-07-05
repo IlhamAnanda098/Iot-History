@@ -29,38 +29,32 @@ style="height:350px;object-fit:cover;">
 
 <hr>
 
-<h5>
+<div class="history-section">
 
-📍 Lokasi
+    <h5 class="section-title">
+        📍 Lokasi
+    </h5>
 
-</h5>
+    <p class="history-text">
+        {{ history.location }}
+    </p>
 
-<p>
+    <h5 class="section-title mt-4">
+        💡 Fakta Menarik
+    </h5>
 
-{{ history.location }}
+    <p class="fact-box">
+        {{ history.fact }}
+    </p>
 
-</p>
+    <h5 class="section-title mt-4">
+        📖 Sejarah
+    </h5>
 
-<h5>
+    <div class="history-content">
+        {{ history.content }}
+    </div>
 
-💡 Fakta Menarik
-
-</h5>
-
-<div class="alert border-0 bg-transparent">
-
-{{ history.fact }}
-
-</div>
-
-<h5>
-
-📖 Sejarah
-
-</h5>
-
-<div class="history-content">
-    {{ history.content }}
 </div>
 
 <a
