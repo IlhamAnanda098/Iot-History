@@ -54,7 +54,7 @@ def list_history():
 
     return render_template("list.html")
 
-@app.route("/history/<int:year>")
+@app.route("/history/<year>")
 def history_detail(year):
 
     if "user_id" not in session:
@@ -62,7 +62,7 @@ def history_detail(year):
 
     history = {
 
-        1960-1969:{
+        "1960-1969": {
         "title":"Awal Mula Konsep Jaringan Komputer",
         "image":"Awal Mula Konsep Jaringan Komputer.jpg",
         "location":"Amerika Serikat (UCLA, Stanford Research Institute, UC Santa Barbara, University of Utah)",
