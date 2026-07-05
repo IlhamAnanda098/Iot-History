@@ -84,13 +84,17 @@ def history_detail(year):
         "title":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama",
         "image":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama.jpg",
         "location":"Carnegie Mellon University, Pittsburgh, Pennsylvania, Amerika Serikat",
-        "fact":"Peralatan rumah pertama yang dikendalikan internet.",
+        "fact":"Mesin ini dapat memberi tahu apakah minuman masih tersedia dan sudah dingin sebelum seseorang berjalan menuju mesin. Banyak yang menganggapnya sebagai perangkat IoT pertama di dunia..",
         "content":"""
-        John Romkey membuat toaster yang dapat dinyalakan
-        melalui internet.
+        Tahun 1982 menjadi salah satu tonggak sejarah paling penting dalam perkembangan IoT. Sekelompok mahasiswa di Carnegie Mellon University memodifikasi mesin penjual minuman Coca-Cola agar dapat terhubung ke internet.
 
-        Demonstrasi ini menunjukkan bahwa benda sehari-hari
-        dapat dikendalikan dari jarak jauh menggunakan jaringan.
+        Mesin tersebut mampu memberikan informasi secara real-time mengenai:
+
+        1. Jumlah minuman yang masih tersedia.
+        2. Posisi setiap botol.
+        3. Apakah minuman sudah dingin atau belum.
+
+        Informasi tersebut dapat diakses dari komputer melalui jaringan.
         """
         },
 
