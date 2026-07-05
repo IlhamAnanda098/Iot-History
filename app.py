@@ -98,66 +98,96 @@ def history_detail(year):
         """
         },
 
-        1999:{
-        "title":"Kevin Ashton",
-        "image":"kevin_ashton.jpg",
-        "location":"MIT Auto-ID Center",
-        "fact":"Lahirnya istilah Internet of Things.",
+        "1990":{
+        "title":"Internet Toaster",
+        "image":"Internet_Toaster.jpg",
+        "location":"Ajang Interop, Amerika Serikat",
+        "fact":"John Romkey berhasil menghubungkan pemanggang roti ke internet menggunakan TCP/IP. Perangkat ini dapat dinyalakan dari jarak jauh, menjadi contoh awal smart home.",
         "content":"""
-        Kevin Ashton memperkenalkan istilah
-        Internet of Things ketika menjelaskan penggunaan RFID
-        untuk rantai pasok.
+        Pada tahun 1990, John Romkey memperkenalkan Internet Toaster, yaitu pemanggang roti yang dapat dikendalikan melalui internet. Awalnya toaster hanya dapat dinyalakan dari jarak jauh. Kemudian sistem dikembangkan sehingga lengan robot dapat memasukkan roti secara otomatis.
 
-        Istilah tersebut kemudian menjadi dasar perkembangan
-        teknologi IoT modern.
+        Dampak demonstrasi ini menunjukkan bahwa:
+
+        1. Peralatan rumah tangga dapat dikontrol melalui internet.
+        2. Internet tidak hanya digunakan oleh komputer, tetapi juga benda sehari-hari.
+
+        Konsep Smart Home mulai mendapat perhatian para peneliti.
         """
         },
 
-        2005:{
-        "title":"ITU",
-        "image":"itu_2005.jpg",
-        "location":"International Telecommunication Union",
-        "fact":"IoT mulai dikenal dunia.",
+        "1991-1998"::{
+        "title":"Embedded System dan Wireless Sensor",
+        "image":"Embedded System dan Wireless Sensor.jpg",
+        "location":"Xerox PARC, California, Amerika Serikat",
+        "fact":"Mark Weiser memperkenalkan konsep bahwa komputer akan "menghilang" ke dalam kehidupan sehari-hari. Gagasan ini menjadi landasan filosofis IoT modern.",
         "content":"""
-        ITU menerbitkan laporan yang menjelaskan bagaimana
-        Internet of Things akan mengubah kehidupan manusia.
+        Pada periode ini perkembangan perangkat keras meningkat sangat pesat. Teknologi yang berkembang meliputi:
 
-        Sejak saat itu perkembangan IoT semakin pesat.
+        1. Mikrokontroler.
+        2. Sensor digital.
+        3. RFID.
+        4. Bluetooth.
+        5. Wireless Sensor Network (WSN).
+
+        Harga komponen elektronik mulai turun sehingga banyak penelitian dilakukan mengenai otomatisasi industri. Perangkat mampu:
+
+        1. Mengukur suhu.
+        2. Mengukur kelembapan.
+        3. Mengukur tekanan.
+        4. Mengukur getaran.
+        5. Mengirim data secara otomatis.
+
+        Inilah awal berkembangnya sistem monitoring modern.
         """
         },
 
-        2015:{
-        "title":"Smart Home",
-        "image":"smart_home.jpg",
+        "1999":{
+        "title":"Lahirnya Istilah Internet of Things (IoT)",
+        "image":"Lahirnya Istilah Internet of Things (IoT).jpg",
+        "location":"Procter & Gamble, Amerika Serikat",
+        "fact":"Kevin Ashton menggunakan istilah "Internet of Things" saat mempresentasikan penggunaan RFID dalam manajemen rantai pasok.",
+        "content":"""
+        Tahun 1999, istilah Internet of Things (IoT) pertama kali diperkenalkan oleh Kevin Ashton saat bekerja di Procter & Gamble. Saat itu ia sedang mengembangkan sistem pelacakan produk menggunakan teknologi RFID.
+
+        Kevin Ashton berpendapat bahwa:
+
+        "Komputer akan menjadi jauh lebih pintar apabila dapat mengumpulkan data secara otomatis dari benda-benda di dunia nyata."
+
+        Ia memperkenalkan konsep bahwa setiap benda dapat memiliki identitas digital dan berkomunikasi melalui internet tanpa campur tangan manusia.
+
+        Dampak:
+        1. Istilah Internet of Things mulai dikenal dunia.
+        2. RFID mulai digunakan secara luas.
+        3. Penelitian mengenai IoT semakin berkembang.
+        """
+        },
+
+        "2010-2013": {
+        "title":"Era Smartphone dan Cloud Computing",
+        "image":"Era Smartphone dan Cloud Computing.jpg",
         "location":"Global",
-        "fact":"IoT mulai digunakan masyarakat.",
+        "fact":"Smartphone menjadi pusat kendali perangkat pintar seperti lampu, kamera, TV, dan thermostat melalui aplikasi seluler.",
         "content":"""
-        Lampu pintar, kamera CCTV,
-        smart speaker,
-        dan berbagai perangkat rumah mulai
-        menggunakan teknologi IoT.
-        """
-        },
+        Kemunculan smartphone mengubah perkembangan IoT secara drastis. Smartphone menjadi pusat pengendali berbagai perangkat.
 
-        2020:{
-        "title":"Era Industri 4.0",
-        "image":"smart_city.jpg",
-        "location":"Seluruh Dunia",
-        "fact":"IoT berkembang di hampir semua sektor.",
-        "content":"""
-        IoT digunakan pada
+        Pada periode ini berkembang:
 
-        • Smart City
+        1. Android
+        2. iOS
+        3. Cloud Computing
+        4. Wi-Fi murah
+        5. Mobile Internet
 
-        • Smart Agriculture
+        Muncul berbagai perangkat Smart Home seperti:
 
-        • Smart Healthcare
+        1. Lampu pintar
+        2. Kamera CCTV online
+        3. Smart Plug
+        4. Smart TV
+        5. Smart Lock
+        6. Smart Thermostat
 
-        • Smart Transportation
-
-        • Smart Factory
-
-        hingga saat ini.
+        Pengguna dapat mengontrol rumah hanya menggunakan smartphone.
         """
         }
 
