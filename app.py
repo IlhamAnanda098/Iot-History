@@ -67,14 +67,13 @@ def history_detail(year):
         "image":"Awal Mula Konsep Jaringan Komputer.jpg",
         "location":"Amerika Serikat (UCLA, Stanford Research Institute, UC Santa Barbara, University of Utah)",
         "fact":"ARPANET berhasil menghubungkan empat komputer yang berbeda dan menjadi cikal bakal internet modern.",
-        "content":"""
-        Pada dekade 1960-an, para peneliti mulai mengembangkan konsep komunikasi data antar komputer. Saat itu komputer masih berukuran sangat besar dan hanya digunakan oleh lembaga pemerintahan maupun universitas. Perkembangan terbesar terjadi pada tahun 1969, ketika proyek ARPANET berhasil menghubungkan empat komputer yang berada di lokasi berbeda.
+        "content":"""Pada dekade 1960-an, para peneliti mulai mengembangkan konsep komunikasi data antar komputer. Saat itu komputer masih berukuran sangat besar dan hanya digunakan oleh lembaga pemerintahan maupun universitas. Perkembangan terbesar terjadi pada tahun 1969, ketika proyek ARPANET berhasil menghubungkan empat komputer yang berada di lokasi berbeda.
 
         Tujuan utama ARPANET adalah:
 
-        1. Menghubungkan komputer yang berada di tempat berbeda.
-        2. Memungkinkan pertukaran informasi secara cepat.
-        3. Menjamin komunikasi tetap berjalan meskipun sebagian jaringan mengalami gangguan.
+            1. Menghubungkan komputer yang berada di tempat berbeda.
+            2. Memungkinkan pertukaran informasi secara cepat.
+            3. Menjamin komunikasi tetap berjalan meskipun sebagian jaringan mengalami gangguan.
 
         Walaupun belum ada konsep Internet of Things, ARPANET menjadi pondasi utama lahirnya internet yang kelak memungkinkan jutaan perangkat saling terhubung.
         """
@@ -90,9 +89,9 @@ def history_detail(year):
 
         Mesin tersebut mampu memberikan informasi secara real-time mengenai:
 
-        1. Jumlah minuman yang masih tersedia.
-        2. Posisi setiap botol.
-        3. Apakah minuman sudah dingin atau belum.
+            1. Jumlah minuman yang masih tersedia.
+            2. Posisi setiap botol.
+            3. Apakah minuman sudah dingin atau belum.
 
         Informasi tersebut dapat diakses dari komputer melalui jaringan.
         """
@@ -108,8 +107,8 @@ def history_detail(year):
 
         Dampak demonstrasi ini menunjukkan bahwa:
 
-        1. Peralatan rumah tangga dapat dikontrol melalui internet.
-        2. Internet tidak hanya digunakan oleh komputer, tetapi juga benda sehari-hari.
+            1. Peralatan rumah tangga dapat dikontrol melalui internet.
+            2. Internet tidak hanya digunakan oleh komputer, tetapi juga benda sehari-hari.
 
         Konsep Smart Home mulai mendapat perhatian para peneliti.
         """
@@ -123,19 +122,19 @@ def history_detail(year):
         "content":"""
         Pada periode ini perkembangan perangkat keras meningkat sangat pesat. Teknologi yang berkembang meliputi:
 
-        1. Mikrokontroler.
-        2. Sensor digital.
-        3. RFID.
-        4. Bluetooth.
-        5. Wireless Sensor Network (WSN).
+            1. Mikrokontroler.
+            2. Sensor digital.
+            3. RFID.
+            4. Bluetooth.
+            5. Wireless Sensor Network (WSN).
 
         Harga komponen elektronik mulai turun sehingga banyak penelitian dilakukan mengenai otomatisasi industri. Perangkat mampu:
 
-        1. Mengukur suhu.
-        2. Mengukur kelembapan.
-        3. Mengukur tekanan.
-        4. Mengukur getaran.
-        5. Mengirim data secara otomatis.
+            1. Mengukur suhu.
+            2. Mengukur kelembapan.
+            3. Mengukur tekanan.
+            4. Mengukur getaran.
+            5. Mengirim data secara otomatis.
 
         Inilah awal berkembangnya sistem monitoring modern.
         """
@@ -156,9 +155,9 @@ def history_detail(year):
         Ia memperkenalkan konsep bahwa setiap benda dapat memiliki identitas digital dan berkomunikasi melalui internet tanpa campur tangan manusia.
 
         Dampak:
-        1. Istilah Internet of Things mulai dikenal dunia.
-        2. RFID mulai digunakan secara luas.
-        3. Penelitian mengenai IoT semakin berkembang.
+            1. Istilah Internet of Things mulai dikenal dunia.
+            2. RFID mulai digunakan secara luas.
+            3. Penelitian mengenai IoT semakin berkembang.
         """
         },
 
@@ -172,20 +171,20 @@ def history_detail(year):
 
         Pada periode ini berkembang:
 
-        1. Android
-        2. iOS
-        3. Cloud Computing
-        4. Wi-Fi murah
-        5. Mobile Internet
+            1. Android
+            2. iOS
+            3. Cloud Computing
+            4. Wi-Fi murah
+            5. Mobile Internet
 
         Muncul berbagai perangkat Smart Home seperti:
 
-        1. Lampu pintar
-        2. Kamera CCTV online
-        3. Smart Plug
-        4. Smart TV
-        5. Smart Lock
-        6. Smart Thermostat
+            1. Lampu pintar
+            2. Kamera CCTV online
+            3. Smart Plug
+            4. Smart TV
+            5. Smart Lock
+            6. Smart Thermostat
 
         Pengguna dapat mengontrol rumah hanya menggunakan smartphone.
         """
@@ -201,28 +200,28 @@ def history_detail(year):
 
         Implementasinya meliputi:
 
-        1. Smart City
-            a. Lampu lalu lintas otomatis.
-            b. Parkir pintar.
-            c. Pengelolaan banjir.
-            d. Monitoring kualitas udara.
-        2. Smart Agriculture
-            a. Drone pertanian.
-            b. Sensor kelembapan.
-            c. Monitoring tanaman.
-            d. Otomatisasi irigasi.
-        3. Smart Healthcare
-            a. Monitoring pasien dari rumah.
-            b. Wearable kesehatan.
-            c. Telemedicine.
-        4. Smart Energy
-            a. Smart Grid.
-            b. Smart Meter.
-            c. Monitoring konsumsi listrik.
-        5. Smart Transportation
-            a. Kendaraan listrik terhubung.
-            b. Manajemen armada.
-            c. Pemantauan lalu lintas secara real-time.
+            1. Smart City
+                a. Lampu lalu lintas otomatis.
+                b. Parkir pintar.
+                c. Pengelolaan banjir.
+                d. Monitoring kualitas udara.
+            2. Smart Agriculture
+                a. Drone pertanian.
+                b. Sensor kelembapan.
+                c. Monitoring tanaman.
+                d. Otomatisasi irigasi.
+            3. Smart Healthcare
+                a. Monitoring pasien dari rumah.
+                b. Wearable kesehatan.
+                c. Telemedicine.
+            4. Smart Energy
+                a. Smart Grid.
+                b. Smart Meter.
+                c. Monitoring konsumsi listrik.
+            5. Smart Transportation
+                a. Kendaraan listrik terhubung.
+                b. Manajemen armada.
+                c. Pemantauan lalu lintas secara real-time.
         """
         },
 
@@ -236,23 +235,23 @@ def history_detail(year):
 
         Karakteristik utamanya meliputi:
 
-        1. AI berjalan langsung pada perangkat (on-device AI), sehingga respons lebih cepat.
-        2. Analisis data dilakukan secara real-time di edge (Edge AI), mengurangi ketergantungan pada cloud.
-        3. Predictive Maintenance semakin akurat dengan memanfaatkan pembelajaran mesin.
-        4. Digital Twin digunakan untuk membuat representasi virtual dari mesin atau sistem fisik guna simulasi dan optimasi.
-        5. Robot kolaboratif (cobots) dan kendaraan otonom semakin banyak memanfaatkan data IoT.
-        6. Teknologi 5G dan LPWAN (seperti LoRaWAN dan NB-IoT) mendukung koneksi jutaan perangkat dengan konsumsi daya rendah.
-        7.Keamanan siber menjadi fokus utama melalui enkripsi, autentikasi perangkat, pembaruan firmware jarak jauh (OTA), dan arsitektur Zero Trust.
+            1. AI berjalan langsung pada perangkat (on-device AI), sehingga respons lebih cepat.
+            2. Analisis data dilakukan secara real-time di edge (Edge AI), mengurangi ketergantungan pada cloud.
+            3. Predictive Maintenance semakin akurat dengan memanfaatkan pembelajaran mesin.
+            4. Digital Twin digunakan untuk membuat representasi virtual dari mesin atau sistem fisik guna simulasi dan optimasi.
+            5. Robot kolaboratif (cobots) dan kendaraan otonom semakin banyak memanfaatkan data IoT.
+            6. Teknologi 5G dan LPWAN (seperti LoRaWAN dan NB-IoT) mendukung koneksi jutaan perangkat dengan konsumsi daya rendah.
+            7.Keamanan siber menjadi fokus utama melalui enkripsi, autentikasi perangkat, pembaruan firmware jarak jauh (OTA), dan arsitektur Zero Trust.
 
         Implementasi AIoT kini telah meluas pada:
 
-        1. Industri manufaktur cerdas (Smart Factory).
-        2. Rumah pintar (Smart Home).
-        3. Kota pintar (Smart City).
-        4. Pertanian presisi (Precision Agriculture).
-        5. Rumah sakit digital.
-        6. Sistem logistik dan rantai pasok.
-        7. Monitoring lingkungan dan mitigasi bencana.
+            1. Industri manufaktur cerdas (Smart Factory).
+            2. Rumah pintar (Smart Home).
+            3. Kota pintar (Smart City).
+            4. Pertanian presisi (Precision Agriculture).
+            5. Rumah sakit digital.
+            6. Sistem logistik dan rantai pasok.
+            7. Monitoring lingkungan dan mitigasi bencana.
         """
         }
         }
