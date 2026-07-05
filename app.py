@@ -62,21 +62,23 @@ def history_detail(year):
 
     history = {
 
-        1982:{
-        "title":"Mesin Coca-Cola Pertama",
-        "image":"coca_cola_1982.jpg",
-        "location":"Carnegie Mellon University, Amerika Serikat",
-        "fact":"Perangkat IoT pertama di dunia.",
+        1960-1969:{
+        "title":"Awal Mula Konsep Jaringan Komputer",
+        "image":"Awal Mula Konsep Jaringan Komputer.jpg",
+        "location":"Amerika Serikat (UCLA, Stanford Research Institute, UC Santa Barbara, University of Utah)",
+        "fact":"ARPANET berhasil menghubungkan empat komputer yang berbeda dan menjadi cikal bakal internet modern.",
         "content":"""
-        Pada tahun 1982 mahasiswa Carnegie Mellon University
-        menghubungkan mesin Coca-Cola ke jaringan komputer kampus.
+        Pada dekade 1960-an, para peneliti mulai mengembangkan konsep komunikasi data antar komputer. Saat itu komputer masih berukuran sangat besar dan hanya digunakan oleh lembaga pemerintahan maupun universitas.
 
-        Sistem ini mampu memberi tahu apakah minuman tersedia
-        dan apakah sudah cukup dingin.
+        Perkembangan terbesar terjadi pada tahun 1969, ketika proyek ARPANET berhasil menghubungkan empat komputer yang berada di lokasi berbeda.
 
-        Walaupun sederhana, proyek tersebut dianggap sebagai
-        cikal bakal Internet of Things karena perangkat fisik
-        mampu mengirimkan informasi melalui jaringan komputer.
+        Tujuan utama ARPANET adalah:
+
+        1. Menghubungkan komputer yang berada di tempat berbeda.
+        2. Memungkinkan pertukaran informasi secara cepat.
+        3. Menjamin komunikasi tetap berjalan meskipun sebagian jaringan mengalami gangguan.
+
+        Walaupun belum ada konsep Internet of Things, ARPANET menjadi pondasi utama lahirnya internet yang kelak memungkinkan jutaan perangkat saling terhubung.
         """
         },
 
