@@ -68,9 +68,7 @@ def history_detail(year):
         "location":"Amerika Serikat (UCLA, Stanford Research Institute, UC Santa Barbara, University of Utah)",
         "fact":"ARPANET berhasil menghubungkan empat komputer yang berbeda dan menjadi cikal bakal internet modern.",
         "content":"""
-        Pada dekade 1960-an, para peneliti mulai mengembangkan konsep komunikasi data antar komputer. Saat itu komputer masih berukuran sangat besar dan hanya digunakan oleh lembaga pemerintahan maupun universitas.
-
-        Perkembangan terbesar terjadi pada tahun 1969, ketika proyek ARPANET berhasil menghubungkan empat komputer yang berada di lokasi berbeda.
+        Pada dekade 1960-an, para peneliti mulai mengembangkan konsep komunikasi data antar komputer. Saat itu komputer masih berukuran sangat besar dan hanya digunakan oleh lembaga pemerintahan maupun universitas. Perkembangan terbesar terjadi pada tahun 1969, ketika proyek ARPANET berhasil menghubungkan empat komputer yang berada di lokasi berbeda.
 
         Tujuan utama ARPANET adalah:
 
@@ -82,9 +80,9 @@ def history_detail(year):
         """
         },
 
-        1990:{
-        "title":"Internet Toaster",
-        "image":"toaster_1990.jpg",
+       "1982": {
+        "title":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama",
+        "image":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama.jpg",
         "location":"Interop Conference",
         "fact":"Peralatan rumah pertama yang dikendalikan internet.",
         "content":"""
