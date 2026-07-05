@@ -83,7 +83,7 @@ def history_detail(year):
        "1982": {
         "title":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama",
         "image":"Mesin Coca-Cola Menjadi Perangkat IoT Pertama.jpg",
-        "location":"Interop Conference",
+        "location":"Carnegie Mellon University, Pittsburgh, Pennsylvania, Amerika Serikat",
         "fact":"Peralatan rumah pertama yang dikendalikan internet.",
         "content":"""
         John Romkey membuat toaster yang dapat dinyalakan
