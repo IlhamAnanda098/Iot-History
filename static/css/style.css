@@ -272,3 +272,10 @@ font-size:1.25rem;
 color:#eee;
 
 }
+
+.history-content{
+    white-space: pre-line;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 17px;
+}
