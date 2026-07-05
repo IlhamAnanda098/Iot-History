@@ -115,11 +115,11 @@ def history_detail(year):
         """
         },
 
-        "1991-1998"::{
+        "1991-1998":{
         "title":"Embedded System dan Wireless Sensor",
         "image":"Embedded System dan Wireless Sensor.jpg",
         "location":"Xerox PARC, California, Amerika Serikat",
-        "fact":"Mark Weiser memperkenalkan konsep bahwa komputer akan "menghilang" ke dalam kehidupan sehari-hari. Gagasan ini menjadi landasan filosofis IoT modern.",
+        "fact":"Mark Weiser memperkenalkan konsep bahwa komputer akan menghilang ke dalam kehidupan sehari-hari. Gagasan ini menjadi landasan filosofis IoT modern.",
         "content":"""
         Pada periode ini perkembangan perangkat keras meningkat sangat pesat. Teknologi yang berkembang meliputi:
 
@@ -145,7 +145,7 @@ def history_detail(year):
         "title":"Lahirnya Istilah Internet of Things (IoT)",
         "image":"Lahirnya Istilah Internet of Things (IoT).jpg",
         "location":"Procter & Gamble, Amerika Serikat",
-        "fact":"Kevin Ashton menggunakan istilah "Internet of Things" saat mempresentasikan penggunaan RFID dalam manajemen rantai pasok.",
+        "fact":"Kevin Ashton menggunakan istilah Internet of Things saat mempresentasikan penggunaan RFID dalam manajemen rantai pasok.",
         "content":"""
         Tahun 1999, istilah Internet of Things (IoT) pertama kali diperkenalkan oleh Kevin Ashton saat bekerja di Procter & Gamble. Saat itu ia sedang mengembangkan sistem pelacakan produk menggunakan teknologi RFID.
 
