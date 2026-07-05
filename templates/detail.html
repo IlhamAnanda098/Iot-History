@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+{{ year }}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="card shadow-lg">
+
+<img
+src="{{ url_for('static', filename='img/' + history.image) }}"
+class="card-img-top"
+style="height:350px;object-fit:cover;">
+
+<div class="card-body">
+
+<h2>
+
+{{ year }}
+
+-
+
+{{ history.title }}
+
+</h2>
+
+<hr>
+
+<h5>
+
+📍 Lokasi
+
+</h5>
+
+<p>
+
+{{ history.location }}
+
+</p>
+
+<h5>
+
+💡 Fakta Menarik
+
+</h5>
+
+<div class="alert alert-info">
+
+{{ history.fact }}
+
+</div>
+
+<h5>
+
+📖 Sejarah
+
+</h5>
+
+<p style="text-align:justify;line-height:1.8">
+
+{{ history.content }}
+
+</p>
+
+<a
+href="/list"
+class="btn btn-primary">
+
+← Kembali
+
+</a>
+
+</div>
+
+</div>
+
+{% endblock %}

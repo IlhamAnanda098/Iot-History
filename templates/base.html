@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="/home">
+
+        <i class="bi bi-cpu-fill"></i>
+
+        History of IoT
+
+        </a>
+
+        <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/home">
+                        <i class="bi bi-house-fill"></i> Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">
+                        <i class="bi bi-info-circle-fill"></i> About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/list">
+                        <i class="bi bi-clock-history"></i> History
+                    </a>
+                </li>
+
+                <li class="nav-item me-3">
+                    <button class="btn btn-outline-light" id="themeToggle">
+                        🌙 Dark Mode
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="/logout">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<div class="container mt-3">
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+
+{% for category, message in messages %}
+
+<div class="alert alert-{{ category }} alert-dismissible fade show">
+
+{{ message }}
+
+<button class="btn-close" data-bs-dismiss="alert"></button>
+
+</div>
+
+{% endfor %}
+
+{% endif %}
+{% endwith %}
+
+</div>
+
+<div class="container mt-5">
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer class="text-center mt-5 mb-3 text-muted">
+
+<hr>
+
+<p>
+
+© 2026 History of Internet of Things
+
+<br>
+
+Created by Nanda
+
+</p>
+
+</footer>
+
+<script>
+
+const toggle = document.getElementById("themeToggle");
+
+if(localStorage.getItem("theme") === "dark"){
+
+    document.body.classList.add("dark-mode");
+
+    toggle.innerHTML="☀️ Light Mode";
+
+}
+
+toggle.addEventListener("click",()=>{
+
+    document.body.classList.toggle("dark-mode");
+
+    if(document.body.classList.contains("dark-mode")){
+
+        localStorage.setItem("theme","dark");
+
+        toggle.innerHTML="☀️ Light Mode";
+
+    }else{
+
+        localStorage.setItem("theme","light");
+
+        toggle.innerHTML="🌙 Dark Mode";
+
+    }
+
+});
+
+</script>
+
+</body>
+
+</html>
