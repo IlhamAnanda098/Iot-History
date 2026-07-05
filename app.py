@@ -8,6 +8,16 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SECRET_KEY"] = "iot-secret-key"
 
+import os
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+os.makedirs(os.path.join(BASE_DIR, "instance"), exist_ok=True)
+
+db_path = os.path.join(BASE_DIR, "instance", "database.db")
+
+app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{db_path}"
+
 db.init_app(app)
 
 with app.app_context():
